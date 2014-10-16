@@ -3,7 +3,8 @@ describe "Application 'TestFun'" do
     @app = UIApplication.sharedApplication
   end
 
-  it "has one window" do
-    @app.windows.size.should == 1
+  it "has one controller" do
+    controller = @app.keyWindow.rootViewController
+    controller.is_a?(ButtonController).should == true
   end
 end
