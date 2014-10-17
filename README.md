@@ -1,4 +1,4 @@
-# RubyMotion Book - Chapter 7 - Testing
+# RubyMotion Book - Chapter 6 - Testing
 
 The BottonController spec is failing when positioned according to the books instructions.
 
@@ -31,4 +31,10 @@ After some experimentation the tap appears to be missing the button depending on
     # button_origin = [154,86] # pass
 ````
 
-What is going on here?
+__What is going on here?__
+
+### Additional info
+
+rubymotion 2.37
+iOS Simulator - iPhone 6 - iPhone6/iOS 8.0 (12A365)
+Xcode Version 6.0.1 (6A317)
